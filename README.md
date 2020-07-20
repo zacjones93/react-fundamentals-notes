@@ -159,7 +159,7 @@ JSX lets you write markup will still being in JavaScript land.
 
 The compiled &rsquo;raw&rsquo; React code is available in the `head` of the document when compiling with babel. (Not something you&rsquo;d want to do in production)
 
-    const elementJsx = <div className="container">Hello World from JSX</div>
+    const elementJsx = <div className="container"> Hello World from JSX </div>
 
 “Interpolation” is defined as &ldquo;the insertion of something of a different nature into something else.&rdquo;
 
@@ -171,7 +171,7 @@ You can interpolate inside JSX as well.
 
     const greeting = 'Hello World'
     const myClassName = 'container'
-    const element = <div className={myClassName}>{greeting}>/div
+    const element = <div className={myClassName}>{greeting}></div>
 
 📜 The react docs for JSX are pretty good: <https://reactjs.org/docs/introducing-jsx.html>
 
